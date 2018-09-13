@@ -1,3 +1,2 @@
 # JavaDesignPattern
-# JavaDesignPattern
-# JavaDesignPattern
+1. Compostite

@@ -9,6 +9,10 @@ public abstract class Composite extends Component{
 	}
 
 	public void add(Component c){
+		//throw exception instead
+		if(c instanceof NonComposable)
+			return;
+
 		components.add(c);
 	}
 
